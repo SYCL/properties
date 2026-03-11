@@ -13,3 +13,6 @@ target_include_directories(test_properties_v2 PRIVATE include)
 
 add_executable(test_properties_v3 test/test_properties_v3.cpp)
 target_include_directories(test_properties_v3 PRIVATE include)
+
+add_executable(test_properties_v4 test/test_properties_v4.cpp)
+target_include_directories(test_properties_v4 PRIVATE include)
