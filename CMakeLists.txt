@@ -7,3 +7,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(test_properties test/test_properties.cpp)
 target_include_directories(test_properties PRIVATE include)
+
+add_executable(test_properties_v2 test/test_properties_v2.cpp)
+target_include_directories(test_properties_v2 PRIVATE include)
